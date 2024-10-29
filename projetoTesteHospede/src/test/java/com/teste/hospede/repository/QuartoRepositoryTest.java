@@ -76,7 +76,7 @@ class QuartoRepositoryTest {
 	void testUpdateHospede() {
 		//Given / Arrange
 		Quarto quarto1 = new Quarto(null, "14",
-				"suite");
+				"suite master");
 		quartoRepository.save(quarto1);
 
 		//When / Act
